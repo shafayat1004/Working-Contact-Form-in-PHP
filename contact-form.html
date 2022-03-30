@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="static/css/bootstrap.css">
+    <link rel="stylesheet" href="static/css/my.css">
+    <link rel="stylesheet" href="static/css/personal.css">
+</head>
+<body>
+        <!-- ###########  
+      CONTACT ME  
+    ########### -->
+    <section class="card contact-me">
+        <div class="card-header personal contact">
+          <h3>Let's get in touch!</h3>
+        </div>
+        <hr>
+        <div class="card-content">
+            <form class="contact-form" action="contact.php" method="POST">
+                <div class="form-group">
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <img src="static/images/name.png" alt="" style="width: 2em;">
+                        </div>
+                        </div>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Full Name" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                            <img src="static/images/mail.png" alt="" style="width: 2em;">
+                            </div>
+                        </div>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <img src="static/images/text.png" alt="" style="width: 2em;">
+                        </div>
+                        </div>
+                        <textarea contenteditable class="form-control" name="message" id="message" placeholder="Your Message" required ></textarea>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <input type="submit" value="Send" class="btn btn-info btn-block">
+                </div>
+            </form>
+            <div class="social">
+                <h1>or,</h1>
+                <a aria-current="page" href="https://www.linkedin.com/in/shafayat1004/" target="_blank" method="post">
+                    <img src="static/images/linkedin.png" alt="LinkedIn">
+                </a>
+                <a aria-current="page" href="https://github.com/shafayat1004/" target="_blank"
+                    method="post">
+                    <img src="static/images/github.svg" alt="github">
+                </a>
+                <a aria-current="page" href="https://www.hackerrank.com/shafayat1004" target="_blank"
+                    method="post">
+                    <img src="static/images/hackerrank.svg" alt="hackerrank">
+                </a>
+                <a aria-current="page" href="https://www.instagram.com/shafayat._/" target="_blank"
+                    method="post">
+                    <img src="static/images/instagram.svg" alt="instagram">
+                </a>
+                <a aria-current="page" href="mailto:shafayat1004@live.com"
+                method="post">
+                    <img src="static/images/email.png" alt="email">
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <script src="bootstrap.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
